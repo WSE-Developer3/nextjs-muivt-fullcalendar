@@ -12,6 +12,7 @@ import "@fullcalendar/common/main.css";
 import "@fullcalendar/daygrid/main.css";
 import "@fullcalendar/timegrid/main.css";
 import "../global-styles.css";
+import "tailwindcss/tailwind.css";
 
 const cache = createCache({ key: "css" });
 cache.compat = true;
