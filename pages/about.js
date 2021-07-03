@@ -10,14 +10,7 @@ export default () => (
     <div>
       <button>Hello</button>
       <Button variant="contained">Hello</Button>
-      <NextLink href="about">About</NextLink>
+      <NextLink href="/">Home</NextLink>
     </div>
-    <FullCalendar
-      plugins={[interactionPlugin, timeGridPlugin]}
-      initialView="timeGridWeek"
-      nowIndicator={true}
-      editable={true}
-      initialEvents={[{ title: "nice event", start: new Date() }]}
-    />
   </>
 );
